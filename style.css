@@ -1,0 +1,140 @@
+/* styling the body */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* styling section, giving background image and dimension */
+section{
+    width: 100%;
+    height: 100vh;
+    background: url("https://harrisonmedia.ie/wp-content/uploads/2019/07/ce-hero4-2000x1333.jpg");
+    background-size: cover;
+}
+/* styling the left floating section */
+section .leftBox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* styling the background of left floating section */
+section .leftBox .content{
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the hover effect of left floating section */
+section .leftBox .content:hover {
+    background: #e91e63;
+}
+/* styling the hover of left floating section */
+section .leftBox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* styling the paragraph of the left floating section */
+section .leftBox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+/* styling the three events section */
+section .events{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+    box-sizing: border-box;
+}
+/* styling the links of the events section */
+section .events ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+/* stylinf the lists of the event section */
+section .events ul li{
+    list-style: none;
+    background: #340404;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+/* styling the time class of the event section */
+section .events ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+/* styling the hover effect of the event section */
+section .events ul li:hover .time{
+    background: #e91e63;
+}
+/* styling the header of time class of events section */
+section .events ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+/* styling the texts of time class ofevents section */
+section .events ul li .time h2 span{
+    font-size: 30px;
+}
+/* styling the details class of the events section */
+section .events ul li .details{
+    padding: 20px;
+    background: #3ce842;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+/* styling the header of the details class of events section */
+section .events ul li .details h3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/* styling the list of details class events section */
+section .events ul li .details p{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* styling the links of details class of event section */
+section .events ul li .details a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+/* styling the details class's hover effect */
+section .events ul li .details a:hover{
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
