@@ -145,7 +145,3 @@ section .events ul li .details a:hover{
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
-  .leftbox, .events{
-    width: 100%;
-  }
