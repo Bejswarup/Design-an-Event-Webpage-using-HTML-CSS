@@ -1,0 +1,143 @@
+/* styling the body */
+@media screen and (max-width: 600px) {
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgrey;
+}
+/* styling section, giving background image and dimension */
+.row{
+    width: 100%;
+    height: 100vh;
+    background-image: none;
+}
+/* styling the left floating section */
+.row .leftBox{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* styling the background of left floating section */
+.row .leftBox .content{
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    transition: .5s;
+}
+/* Styling the hover effect of left floating section */
+.row .leftBox .content:hover {
+    background: #e91e63;
+}
+/* styling the hover of left floating section */
+.row .leftBox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* styling the paragraph of the left floating section */
+.row .leftBox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+/* styling the three events section */
+.row .events{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* styling the links of the events section */
+.row .events ul{
+    /* position: absolute; */
+    width: auto;
+    height: 100%;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* stylinf the lists of the event section */
+.row .events ul li{
+    list-style: none;
+    /* background: #340404; */
+    box-sizing: border-box;
+    height: auto;
+    margin: 15px 0;
+}
+/* styling the time class of the event section */
+.row .events ul li .time{
+    position: relative;
+    padding: 20px;
+    /* background: #262626; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    float: top;
+    text-align: center;
+    transition: .5s;
+}
+/* styling the hover effect of the event section */
+.row .events ul li:hover .time{
+    background: #e91e63;
+}
+/* styling the header of time class of events section */
+.row .events ul li .time h2{
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    /* display: none; */
+    
+}
+/* styling the texts of time class ofevents section */
+.row .events ul li .time h2 span{
+    font-size: 20px;
+    /* text-align: center; */
+}
+/* styling the details class of the events section */
+.row .events ul li .details{
+    padding: 20px;
+    background: #3ce842;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+/* styling the header of the details class of events section */
+.row .events ul li .details h3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+/* styling the list of details class events section */
+.row .events ul li .details p{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* styling the links of details class of event section */
+.row .events ul li .details a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1.5px solid #262626;
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
+/* styling the details class's hover effect */
+.row .events ul li .details a:hover{
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+}
